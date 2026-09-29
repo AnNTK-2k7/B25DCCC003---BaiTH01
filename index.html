@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nguyễn Tài Khánh An</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+
+                <button id="themeBtn">🌙</button>
+
+                <button id="menuBtn">☰</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello">XIN CHÀO</p>
+
+            <h1>
+                Mình là <span>Nguyễn Tài Khánh An</span>
+            </h1>
+
+            <h2>Sinh viên Công nghệ thông tin</h2>
+
+            <p>
+                Mình đang học tập và phát triển kỹ năng lập trình Web,
+                Java, Python và các công nghệ liên quan đến CNTT.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Xem dự án</a>
+                <a href="#contact" class="btn btn-outline">Liên hệ</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="section">
+
+        <h2 class="section-title">Giới thiệu</h2>
+
+        <div class="about-container">
+
+            <div class="about-content">
+
+                <h3>Về mình</h3>
+
+                <p>
+                    Mình là sinh viên năm hai ngành Công nghệ thông tin, học tập tại trường PTIT.
+                    Hiện tại mình đang tập trung học lập trình và xây dựng
+                    các sản phẩm Web cá nhân.
+                </p>
+
+                <p>
+                    Mục tiêu của mình là từng bước nâng cao kỹ năng
+                    HTML, CSS, JavaScript, Java và Python.
+                </p>
+
+                <div class="info">
+
+                    <p>
+                        <strong>Ngành:</strong>
+                        Công nghệ thông tin
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="section">
+
+        <h2 class="section-title">Kỹ năng</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>
+                    Xây dựng cấu trúc và nội dung trang Web.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>
+                    Thiết kế giao diện, Flexbox, Grid và Responsive.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>
+                    Xây dựng các chức năng tương tác cho website.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">☕</div>
+                <h3>Java</h3>
+                <p>
+                    Lập trình hướng đối tượng và giải quyết bài toán.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🐍</div>
+                <h3>Python</h3>
+                <p>
+                    Luyện tập thuật toán và xử lý dữ liệu.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">🔧</div>
+                <h3>Git / GitHub</h3>
+                <p>
+                    Quản lý mã nguồn và làm việc với repository.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">Dự án</h2>
+
+        <div class="project-search">
+
+            <input
+                type="text"
+                id="searchProject"
+                placeholder="Tìm kiếm dự án..."
+            >
+
+        </div>
+
+
+        <div class="projects-grid" id="projectList">
+
+            <div class="project-card" data-name="portfolio html css">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>Website giới thiệu bản thân</h3>
+
+                <p>
+                    Website giới thiệu bản thân được xây dựng
+                    bằng HTML và CSS.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+            </div>
+
+            <div class="project-card" data-name="kta shop javascript">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>KTA Shop</h3>
+
+                <p>
+                    Website bán đồ gia dụng với chức năng
+                    giỏ hàng và tương tác bằng JavaScript.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Liên hệ</h2>
+
+        <div class="contact-container">
+
+            <form id="contactForm">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Họ và tên
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Nhập họ tên"
+                    >
+
+                    <small id="nameError"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="text"
+                        id="email"
+                        placeholder="example@gmail.com"
+                    >
+
+                    <small id="emailError"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Nội dung
+                    </label>
+
+                    <textarea
+                        id="message"
+                        maxlength="300"
+                        placeholder="Nhập nội dung..."
+                    ></textarea>
+
+                    <div class="counter">
+                        <span id="charCount">0</span>/300
+                    </div>
+
+                    <small id="messageError"></small>
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Gửi liên hệ
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © <span id="year"></span> Nguyễn Tài Khánh An
+        </p>
+
+        <p>
+            Sinh viên Công nghệ thông tin
+        </p>
+
+    </footer>
+
+
+    <!-- Nút lên đầu trang -->
+    <button id="topBtn">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
